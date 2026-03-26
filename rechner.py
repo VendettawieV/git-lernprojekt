@@ -1,7 +1,8 @@
-# Einfacher Rechner – Ausgangsdatei für Konflikt-Übung
+# Einfacher Rechner – Version von Entwickler A
 
 def addiere(a, b):
-    pass  # noch nicht implementiert
+    result = a + b  # Entwickler A: mit Zwischenvariable
+    return result
 
 if __name__ == "__main__":
-    print(addiere(2, 3))
+    print("Ergebnis:", addiere(2, 3))
