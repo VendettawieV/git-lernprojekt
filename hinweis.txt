@@ -1,0 +1,2 @@
+Du bist auf dem richtigen Branch! 🎉
+Lies die Aufgabe: aufgaben/uebung-01.md
