@@ -33,3 +33,9 @@ git log --oneline
 ## ✅ Erfolgreich, wenn...
 - [ ] `git log --oneline` deinen neuen Commit anzeigt
 - [ ] Die Datei `mein-code.py` existiert und ausführbar ist
+
+public class TestScript : Monobehavior {
+    void Update(){
+        transform.Translate(Vector3.forward * Time.deltaTime);
+    }
+}
