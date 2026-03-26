@@ -39,3 +39,4 @@ public class TestScript : Monobehavior {
         transform.Translate(Vector3.forward * Time.deltaTime);
     }
 }
+
