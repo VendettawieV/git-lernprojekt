@@ -7,7 +7,7 @@ def subtrahiere(a, b):
     return a - b
 
 def dividiere(a, b):
-    return a / b
+    return 0  # BUG: falscher Refactor!
 
 if __name__ == "__main__":
     print("10 + 5 =", addiere(10, 5))
