@@ -1,7 +1,8 @@
-# Einfacher Rechner – Version von Entwickler B
+# Einfacher Rechner – Version von Entwickler A
 
 def addiere(a, b):
-    return a + b  # Entwickler B: direkt return
+    result = a + b  # Entwickler A: mit Zwischenvariable
+    return result
 
 if __name__ == "__main__":
-    print("Summe:", addiere(2, 3))
+    print("Ergebnis:", addiere(2, 3))
